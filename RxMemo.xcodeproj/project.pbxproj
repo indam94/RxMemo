@@ -13,6 +13,7 @@
 		2250097C23E3C98000CD19CA /* RxMemo.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 2250097A23E3C98000CD19CA /* RxMemo.xcdatamodeld */; };
 		2250097E23E3C98300CD19CA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2250097D23E3C98300CD19CA /* Assets.xcassets */; };
 		2250098123E3C98300CD19CA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2250097F23E3C98300CD19CA /* LaunchScreen.storyboard */; };
+		2250098E23E3CFBA00CD19CA /* Memo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2250098D23E3CFBA00CD19CA /* Memo.swift */; };
 		FD251AA8277E7A004019E976 /* Pods_RxMemo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A188A1984CC6A0712A8E9B3B /* Pods_RxMemo.framework */; };
 /* End PBXBuildFile section */
 
@@ -25,6 +26,7 @@
 		2250097D23E3C98300CD19CA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		2250098023E3C98300CD19CA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		2250098223E3C98300CD19CA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2250098D23E3CFBA00CD19CA /* Memo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Memo.swift; sourceTree = "<group>"; };
 		34F269C1A67E9328143BC1C7 /* Pods-RxMemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RxMemo.release.xcconfig"; path = "Target Support Files/Pods-RxMemo/Pods-RxMemo.release.xcconfig"; sourceTree = "<group>"; };
 		7290AAB0D91EDC8E18E97465 /* Pods-RxMemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RxMemo.debug.xcconfig"; path = "Target Support Files/Pods-RxMemo/Pods-RxMemo.debug.xcconfig"; sourceTree = "<group>"; };
 		A188A1984CC6A0712A8E9B3B /* Pods_RxMemo.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_RxMemo.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -80,6 +82,7 @@
 		2250098823E3CD4E00CD19CA /* Models */ = {
 			isa = PBXGroup;
 			children = (
+				2250098D23E3CFBA00CD19CA /* Memo.swift */,
 			);
 			path = Models;
 			sourceTree = "<group>";
@@ -268,6 +271,7 @@
 				2250097223E3C98000CD19CA /* AppDelegate.swift in Sources */,
 				2250097423E3C98000CD19CA /* SceneDelegate.swift in Sources */,
 				2250097C23E3C98000CD19CA /* RxMemo.xcdatamodeld in Sources */,
+				2250098E23E3CFBA00CD19CA /* Memo.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
