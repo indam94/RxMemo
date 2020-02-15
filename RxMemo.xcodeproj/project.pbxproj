@@ -11,6 +11,7 @@
 		2241BB2123F80EF300394696 /* Scene.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2241BB2023F80EF300394696 /* Scene.swift */; };
 		2241BB2323F8114A00394696 /* SceneCoordinatorType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2241BB2223F8114A00394696 /* SceneCoordinatorType.swift */; };
 		2241BB2523F811CC00394696 /* SceneCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2241BB2423F811CC00394696 /* SceneCoordinator.swift */; };
+		2241BB2723F8151000394696 /* CommonViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2241BB2623F8151000394696 /* CommonViewModel.swift */; };
 		2250097223E3C98000CD19CA /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2250097123E3C98000CD19CA /* AppDelegate.swift */; };
 		2250097423E3C98000CD19CA /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2250097323E3C98000CD19CA /* SceneDelegate.swift */; };
 		2250097923E3C98000CD19CA /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2250097723E3C98000CD19CA /* Main.storyboard */; };
@@ -35,6 +36,7 @@
 		2241BB2023F80EF300394696 /* Scene.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Scene.swift; sourceTree = "<group>"; };
 		2241BB2223F8114A00394696 /* SceneCoordinatorType.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneCoordinatorType.swift; sourceTree = "<group>"; };
 		2241BB2423F811CC00394696 /* SceneCoordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneCoordinator.swift; sourceTree = "<group>"; };
+		2241BB2623F8151000394696 /* CommonViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CommonViewModel.swift; sourceTree = "<group>"; };
 		2250096E23E3C98000CD19CA /* RxMemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RxMemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		2250097123E3C98000CD19CA /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		2250097323E3C98000CD19CA /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -131,6 +133,7 @@
 				2250099B23E3FA9D00CD19CA /* MemoListViewModel.swift */,
 				2250099D23E3FACE00CD19CA /* MemoDetailViewModel.swift */,
 				2250099F23E3FAEE00CD19CA /* MemoComposeViewModel.swift */,
+				2241BB2623F8151000394696 /* CommonViewModel.swift */,
 			);
 			path = ViewModels;
 			sourceTree = "<group>";
@@ -336,6 +339,7 @@
 				2241BB2323F8114A00394696 /* SceneCoordinatorType.swift in Sources */,
 				2250099C23E3FA9D00CD19CA /* MemoListViewModel.swift in Sources */,
 				2250099E23E3FACE00CD19CA /* MemoDetailViewModel.swift in Sources */,
+				2241BB2723F8151000394696 /* CommonViewModel.swift in Sources */,
 				2241BB1F23F80EA800394696 /* TransitionModel.swift in Sources */,
 				2250099623E3F9F500CD19CA /* MemoListViewController.swift in Sources */,
 				2250099A23E3FA4800CD19CA /* MemoComposeViewController.swift in Sources */,
