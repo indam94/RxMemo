@@ -101,15 +101,39 @@
                     <view key="view" contentMode="scaleToFill" id="SeC-iB-XCA">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="kRv-NK-pe2">
+                                <rect key="frame" x="0.0" y="88" width="414" height="774"/>
+                                <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                                <string key="text">Lorem ipsum dolor sit er elit lamet, consectetaur cillium adipisicing pecu, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Nam liber te conscient to factor tum poen legum odioque civiuda.</string>
+                                <color key="textColor" systemColor="labelColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
+                        </subviews>
                         <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                        <constraints>
+                            <constraint firstItem="kRv-NK-pe2" firstAttribute="top" secondItem="xa4-BA-vxp" secondAttribute="top" id="4Ci-GJ-MWG"/>
+                            <constraint firstItem="kRv-NK-pe2" firstAttribute="bottom" secondItem="xa4-BA-vxp" secondAttribute="bottom" id="LsH-CI-ixI"/>
+                            <constraint firstItem="kRv-NK-pe2" firstAttribute="trailing" secondItem="xa4-BA-vxp" secondAttribute="trailing" id="Vkq-k5-HLZ"/>
+                            <constraint firstItem="kRv-NK-pe2" firstAttribute="leading" secondItem="xa4-BA-vxp" secondAttribute="leading" id="ib5-wh-QPM"/>
+                        </constraints>
                         <viewLayoutGuide key="safeArea" id="xa4-BA-vxp"/>
                     </view>
-                    <navigationItem key="navigationItem" title="Create Memo" id="ari-WB-LXg"/>
+                    <navigationItem key="navigationItem" title="Create Memo" id="ari-WB-LXg">
+                        <barButtonItem key="leftBarButtonItem" systemItem="cancel" id="dfU-WH-a0c"/>
+                        <barButtonItem key="rightBarButtonItem" systemItem="save" id="1UY-4M-Mx9"/>
+                    </navigationItem>
                     <simulatedNavigationBarMetrics key="simulatedTopBarMetrics" prompted="NO"/>
+                    <connections>
+                        <outlet property="cancelButton" destination="dfU-WH-a0c" id="1r6-WB-mNE"/>
+                        <outlet property="contentTextView" destination="kRv-NK-pe2" id="M89-cC-zuZ"/>
+                        <outlet property="saveButton" destination="1UY-4M-Mx9" id="w1Y-Lk-sNo"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="sq1-wg-cLd" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="2890" y="-583"/>
+            <point key="canvasLocation" x="2889.8550724637685" y="-583.25892857142856"/>
         </scene>
         <!--Navigation Controller-->
         <scene sceneID="V0u-wL-pI3">
