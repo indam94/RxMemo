@@ -30,11 +30,48 @@
                     <view key="view" contentMode="scaleToFill" id="UgK-DU-ehf">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="28" sectionFooterHeight="28" translatesAutoresizingMaskIntoConstraints="NO" id="nGN-Hc-Kjd">
+                                <rect key="frame" x="0.0" y="88" width="414" height="774"/>
+                                <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                                <prototypes>
+                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" accessoryType="disclosureIndicator" indentationWidth="10" reuseIdentifier="cell" textLabel="gr5-RN-EfJ" style="IBUITableViewCellStyleDefault" id="E5k-Ws-Fu1">
+                                        <rect key="frame" x="0.0" y="28" width="414" height="43.5"/>
+                                        <autoresizingMask key="autoresizingMask"/>
+                                        <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="E5k-Ws-Fu1" id="9Uk-7C-DRN">
+                                            <rect key="frame" x="0.0" y="0.0" width="383" height="43.5"/>
+                                            <autoresizingMask key="autoresizingMask"/>
+                                            <subviews>
+                                                <label opaque="NO" multipleTouchEnabled="YES" contentMode="left" insetsLayoutMarginsFromSafeArea="NO" text="Title" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="gr5-RN-EfJ">
+                                                    <rect key="frame" x="20" y="0.0" width="355" height="43.5"/>
+                                                    <autoresizingMask key="autoresizingMask"/>
+                                                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                                    <nil key="textColor"/>
+                                                    <nil key="highlightedColor"/>
+                                                </label>
+                                            </subviews>
+                                        </tableViewCellContentView>
+                                    </tableViewCell>
+                                </prototypes>
+                            </tableView>
+                        </subviews>
                         <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                        <constraints>
+                            <constraint firstItem="nGN-Hc-Kjd" firstAttribute="leading" secondItem="f7a-Ql-w1e" secondAttribute="leading" id="8lO-LS-yJR"/>
+                            <constraint firstItem="nGN-Hc-Kjd" firstAttribute="trailing" secondItem="f7a-Ql-w1e" secondAttribute="trailing" id="CB6-AW-B6A"/>
+                            <constraint firstItem="nGN-Hc-Kjd" firstAttribute="bottom" secondItem="f7a-Ql-w1e" secondAttribute="bottom" id="On8-aV-nWE"/>
+                            <constraint firstItem="nGN-Hc-Kjd" firstAttribute="top" secondItem="f7a-Ql-w1e" secondAttribute="top" id="uWi-9v-dCl"/>
+                        </constraints>
                         <viewLayoutGuide key="safeArea" id="f7a-Ql-w1e"/>
                     </view>
-                    <navigationItem key="navigationItem" title="Memo List" id="oea-NC-dmd"/>
+                    <navigationItem key="navigationItem" title="Memo List" id="oea-NC-dmd">
+                        <barButtonItem key="rightBarButtonItem" systemItem="add" id="NzT-ad-Pfo"/>
+                    </navigationItem>
                     <simulatedNavigationBarMetrics key="simulatedTopBarMetrics" prompted="NO"/>
+                    <connections>
+                        <outlet property="addButton" destination="NzT-ad-Pfo" id="u80-y1-dmn"/>
+                        <outlet property="listTableView" destination="nGN-Hc-Kjd" id="lnI-kS-L3q"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Ip4-Wk-Ulj" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
